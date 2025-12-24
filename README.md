@@ -46,10 +46,12 @@ pip install -r requirements.txt
 ```
 
 4️⃣ Set up environment variables
+```
 DEBUG=True
 SECRET_KEY=your-secret-key
 ALLOWED_HOSTS=127.0.0.1,localhost
 DATABASE_URL=sqlite:///db.sqlite3
+```
 
 🗄 Database Setup
 ```bash
