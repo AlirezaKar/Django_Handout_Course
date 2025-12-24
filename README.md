@@ -31,6 +31,7 @@ A brief description of your Django project — what it does and who it’s for.
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+```
 
 2️⃣ Create and activate a virtual environment
 python -m venv venv
