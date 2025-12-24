@@ -34,12 +34,16 @@ cd your-repo-name
 ```
 
 2️⃣ Create and activate a virtual environment
+``` bash
 python -m venv venv
 source venv/bin/activate      # Linux / macOS
 venv\Scripts\activate         # Windows
+```
 
 3️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 4️⃣ Set up environment variables
 DEBUG=True
@@ -48,14 +52,20 @@ ALLOWED_HOSTS=127.0.0.1,localhost
 DATABASE_URL=sqlite:///db.sqlite3
 
 🗄 Database Setup
+```bash
 python manage.py makemigrations
 python manage.py migrate
+```
 
 Create a superuser:
+``` bash
 python manage.py createsuperuser
+```
 
 ▶️ Run the Development Server
+```bash
 python manage.py runserver
+```
 
 Open your browser and go to:
 http://127.0.0.1:8000/
@@ -64,8 +74,12 @@ Admin panel:
 http://127.0.0.1:8000/admin/
 
 🧪 Running Tests
+``` bash
 python manage.py test
+```
 
+Project Structure
+```bash
 project_name/
 │
 ├── app_name/
@@ -85,3 +99,4 @@ project_name/
 ├── manage.py
 ├── requirements.txt
 └── README.md
+```
