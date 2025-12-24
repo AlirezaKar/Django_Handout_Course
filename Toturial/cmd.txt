@@ -40,11 +40,32 @@ to see the status of every file in your repository (committed oro not ):
 to prepare files into committing:
 `` git add <file_name>   
 `` git add *            // adds all 
+`` git add -a
 to commit:
-`` git commit -m <file_name> commit_description 
-
-
+`` git commit -m <file_name> "commit_description"
+`` git commit -m "commit_description"               // commit all
+* NOTE: if it doesn't authorize you run these commands first and then commit:
+`` git config --global user.email "you@example.com"
+`` git config --global user.name "Your Name"
+to see your commit log:
+`` git log
+to see all branches:
+`` git branch
+to create a new branch:
+`` git branch <branch_name>
 to exclude files from being push to GitHub: 
 create a .gitignore file and write the name of the files or folders in there
+OR:
+`` git -ignore <file> 
 * check out this website for a .gitignore generator: https://www.toptal.com/developers/gitignore    
 * just write out Django Python 
+* NOTE: remember! when merging branches you always stand in the higher priority branch and merges yourself
+*       into the lower one. (main --> test --> dev --> fe )
+??????
+`` checkout branch_name
+to clone a repository into the folder you are currently in (in cmd):
+`` git clone <repository_html_url> 
+to specify the repository url:
+`` git remote add <name> <url>
+to push the last commit onto GitHub:
+`` git push <name>      // or <> for everything
