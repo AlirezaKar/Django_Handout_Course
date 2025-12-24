@@ -1,0 +1,226 @@
+- What is Web development? talk about different web-dev jobs and rolls (front/back/design/full_stack/...)
+- What is internet?
+- What do you need before learning Django?
+- Creating a virtual environment
+- Git
+- Getting started with Django (setup and initial configuration)
+    * creating a new project 
+    * how to install django 
+    * Settings.py
+    * urls.py
+    * views.py
+    * models.py
+    * admin.py
+
+- URLs & Views:
+    * different types of view 
+    * writing a functioned-based & class-based view
+    * writing a url path
+    * writing multiple url paths (with include() / namespace() )
+    * Dynamic Path Segments & Captured Values
+    * Path Converters
+    * Adding More Dynamic View Logic
+    * Redirects
+    * The Reverse Function & Named URLs
+    * Returning HTML
+
+- Test & Validation 
+    * Permissions and authorization
+    * ...
+
+- Authentication
+    * Built-in django login/logout 
+    * custom login / logout (views)
+    * register
+    * FrontEnd
+    * Custom User Model
+    * Alas method
+
+- Template and Static Files:
+    * Initial configuration + Image/File Access
+    * Essential template files 
+    * Bootstrap
+    * Simple Django Template frontend 
+    * render
+    * Template Language & Variable Interpolation
+    * Filters
+    * useful vscode extension
+    * Django Template tags 
+    * HTML <% for %> 
+    * The URL Tag for Dynamic URLs
+    * The "if" Tag for Conditional Content
+    * Template Inheritance
+    * Including Partial Template Snippets
+    * 404 Templates
+    * Adding Static Files
+    * Adding Global Static Files
+    * Adding CSS Styling
+    * Building Static URLs Dynamically
+
+- Project 1 : Blog (#1)
+    * Initialization 
+    * Planning (sketching)
+    * Adding URLs & Views & Template 
+    * Template Content & Static Files
+    * Adding Images as Static Files
+    * Adding the "All Posts" Page & Style
+    * Linking the Pages
+    * Adding the "Single Post" Page
+    * Adding Dummy Data to the "Views" File
+    * Adding a 404 Page
+    * asgi.py / wsgi.py files 
+
+- Model:
+    * Django Models and Fields 
+    * Migrations 
+    * Inserting Data
+    * Getting all Entries
+    * Updating Models & Migrations
+    * Blank vs Null
+    * Updating Data
+    * Deleting Data
+    * Create Instead of Save
+    * Model URLs
+    * Adding a Slugfield & Overwriting Save
+    * Using the Slug & Updating Field Options
+
+- Query:
+    * QuerySet
+    * Django ORM
+    * django shell terminal
+    * Filters 
+    * writing query 
+    * "or" Conditions
+    * Query Performance
+    * Bulk Operations
+    * Rendering Queried Data in the Template
+    * Rendering the Details Page
+    * Aggregation & Ordering
+
+- Admin:
+    * Creating superuser and Logging Data Into the Admin Panel
+    * Adding Models to the Admin Area
+    * Configuring Model Fields 
+    * Tabular Inline admin 
+    * Configuring the Admin Settings
+    * Custom Admin Panel
+
+- Relationships:
+    * OneToOne
+    * ForeignKey
+    * ManyToMany
+    * Migrations
+    * cross model queries 
+    * relationship management control
+    * Circular Relations & Lazy Relations
+
+- Project 1 : blog (#2)
+    * Model
+    * Relationships
+    * Admin 
+    * Migrations and admin 
+    * Adding Data 
+    
+- forms:
+    * FrontEnd and Backend code 
+    * ModelForm / Form 
+    * Safety tokens (CSRF / JWT)
+    * Handling Form Submission & Extracting Data
+    * Manual Form Validation & the Problems with "that"
+    * Using the Django Form Class
+    * Validation with Django Forms
+    * Customizing the Form Controls
+    * Customizing the Rendered HTML
+    * Adding Styling
+    * Adding More Form Controls
+    
+- Class-based views:
+    * Built in views 
+    * DeleteView
+    * templateView
+    * View
+    * DetailView
+    * ListView
+    * CreateView
+    * FormView
+    * ...
+
+- File Access:
+    * Tinymce
+    * HTMLField()
+    * pillow 
+    * ImageField
+    * Image config and handling 
+    * File config and handling
+    * media folder 
+    * static folder 
+    * Making the File Upload Work
+    * Storing Uploaded Files Naive Approach
+    * Adding a Form with a Filefield
+    * Using Models for File Storage
+    * Serving Uploaded Files
+
+- Network Theories 
+    * session
+    * What are Sessions?
+    * Enabling & Configuring Sessions
+    * Adding a New View
+    * Storing Data in Sessions
+    * Which Kind of Data Should be Stored
+    * Using Session Data
+    * Safely Accessing Session Data
+    * token 
+    * cookies 
+    * Browser Inspect (F12)
+    * request 
+    * request status_codes
+    
+- Database:
+    * Which database 
+    * SQLite
+    * Docker
+    * PostgreSQL + Setup (windows/linux)
+    * DB Browser / SQLite Viewer Web 
+    * Setting up multiple DBs
+    
+- API:
+    * REST framework 
+    * serializers 
+    * CRAUD 
+    *
+
+- FAST API
+    * ...
+
+- Project 1 : (#3)
+    * Adding Files, Images, class based views, forms , DB configs, API
+    * Adding Comment (Model, views, urls, validations, output, form, admin)
+
+- development:
+    * Which Database
+    * Django & Web Servers
+    * Serving Static Files
+    * Choosing a Hosting Provider
+    * Pythonanywhere.com 
+    * Getting Started & Revisiting Settings
+    * Collecting Static Files
+    * Serving Static Files
+    * A Note About Migrations
+    * Locking in Dependencies
+    * More on Virtual Environments
+    * Using Environment Variables
+    * Deploying with Elastic Beanstalk
+    * SSL & Custom Domains
+    * Connecting PostgreSQL
+    * Serving Static Files Separately
+    * Serving Static Files via S3
+    * Moving File Uploads to S3 
+
+- Projects :
+    * To do list 
+    * two factor Authentication
+    * Blog
+    * Online Shop
+    * Short link generator
+    * password generator 
+    * 

@@ -1,0 +1,50 @@
+## Virtual environment
+Creating a new virtual env:
+`` python -m venv .venv     // windows
+`` python3 -m venv .venv    // linux / mac
+to activate it:
+`` .venv\Scripts\activate       // cmd (windows)
+`` source .venv\bin\activate    // git bash / linux 
+to deactivate it :
+`` .venv\Scripts\deactivate       // cmd (windows)
+`` source .venv\bin\deactivate    // git bash / linux
+
+## Package management
+installing packages:
+`` pip install Django
+installing a specific version of a package:
+`` pip install Django==6.0
+to check package if a package is installed + info:
+`` pip show Django
+to update packages:
+`` pip install Django -U            // method 1
+`` pip install Django --upgrade     // method 2
+to see installed packages:
+`` pip freeze
+to see all the available packages (including built-in ones)
+`` pip list
+save all the installed packages in an environment into a .txt file:
+`` pip freeze > requirements.txt
+to install all of the packages in a requirements.txt file:
+`` pip install -r requirements.txt
+* NOTE: It's better to create a requirements.txt file manually and write the name and version of 
+*       the packages you install yourself (for a neater requirements.txt file)
+to skip a package from being installing from the requirements.txt file:
+Django==6.0#    // add a "#" to the end 
+
+## GIT
+to Initialize a repository:
+`` git init 
+to see the status of every file in your repository (committed oro not ):
+`` git status
+to prepare files into committing:
+`` git add <file_name>   
+`` git add *            // adds all 
+to commit:
+`` git commit -m <file_name> commit_description 
+
+
+to exclude files from being push to GitHub: 
+create a .gitignore file and write the name of the files or folders in there
+* check out this website for a .gitignore generator: https://www.toptal.com/developers/gitignore    
+* just write out Django Python 
